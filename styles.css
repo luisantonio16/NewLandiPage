@@ -168,6 +168,9 @@ body {
     cursor: pointer;
     margin:20px auto;
 }
+
+
+
 @media (min-width:768px) {
     .nav-logo {
         width: 180px;
@@ -220,4 +223,46 @@ body {
     .nav-btn:hover {
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     }
+
+    .first-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .first-article-imagenes{
+        width: 60%;
+        max-width: 650px;
+    }
+    
+.first-article-text{
+    width: 90%;
+    max-width: 450px;
+    margin: auto;
+    text-align: start;
+}
+.title{
+    color: var(--Dark-Blue);
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.parrafo{
+    color: var(--Grayish-Blue);
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.first-btn{
+    display: block;
+    border: none;
+    background-image: linear-gradient(var(--LimeGreen), var(--BrightCyan));
+    color: var(--White);
+    width: 150px;
+    border-radius: 40px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+
+}
 }
